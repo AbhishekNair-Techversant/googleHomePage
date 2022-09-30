@@ -21,7 +21,7 @@ body{
 
 .header{
 	display: flex;
-	justify-content: end;
+	justify-content: flex-end;
 }
 
 .alignCenter{
@@ -126,8 +126,8 @@ body{
 .footer{
 	display: flex;
 	position: absolute;
-	bottom: 0;
 	right: 0;
+	bottom: 0;
 	font-size: 13px;
 	box-shadow:  0 3px 10px rgb(0 0 255 / 0.2);
 	border-radius: 30px;
